@@ -158,8 +158,12 @@ address {
   margin-right: 50px;
 }
 
+.mail-icon{
+  margin-right: 10px;
+}
 .mail .site-nav-link {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .site-nav-link:hover .mail-icon,
@@ -168,7 +172,8 @@ address {
 }
 
 .phone .site-nav-link {
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .site-nav-link:hover .phone-icon,
@@ -176,6 +181,9 @@ address {
   fill: currentColor;
 }
 
+.phone-icon{
+  margin-right: 10px;
+}
 /* .phone-icon:hover,
 .phone-icon:focus{
   fill: red;
